@@ -1,5 +1,10 @@
 :root {
-     --header-background-color: #A1C487;
+     --header-background-color: #ffffff;
+     --btn-color:#4F62F6;
+     --btn-color-hover: 7181FC;
+
+
+
      --footer-background-color: #EAF7E5;
      --primary-text-color: #141414;
      --background-item: #EAF7E5;
