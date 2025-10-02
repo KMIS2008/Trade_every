@@ -21,9 +21,64 @@
     color: #333333;
 }
 
+.button{
+  display: none;
+  width: 167px;
+  height: 40px;
+  text-align: center;
+  background-color: #4F62F6;
+  color: #FFFFFF;
+  border-radius: 60px;
+  border-color: transparent;
+
+  font-family: Museo Sans Cyrl;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1;
+  letter-spacing: 0;
+
+  cursor: pointer;
+}
+
+.button:hover{
+  background-color: #7181FC;
+}
+
+.button:active{
+  background-color: #354BF4;
+}
+
+.button:disabled{
+  background-color: #828282;
+  color: #E0E0E0;
+}
+
 .svg {
   width: 24px;
   height: 24px;
+  fill:#333333;
+  cursor: pointer;
+}
+
+
+
+@media screen and (min-width: 768px) {
+  .header{
+    justify-content: end;
+
+    padding-right: 20px;
+    padding-left: 20px;
+    gap: 25px;
+  }
+
+  .logo{
+    display: none;
+  }
+
+  .button{
+    display: block;
+
+    }
 }
 
 /* .header .container {
