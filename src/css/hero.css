@@ -83,8 +83,8 @@
   .btn{
     margin-top: 48px;
   }
-  
 }
+
 @media screen and (min-width: 1440px) {
     .section{
       display: flex;
