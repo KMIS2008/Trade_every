@@ -1,4 +1,30 @@
 /* dm-sans-regular - latin */
+
+
+@font-face {
+  font-family: "Museo Sans Cyrl";
+  src: url("../fonts/ofont.ru_Museo\ Sans\ Cyrl\ 700.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Museo Sans Cyrl";
+  src: url("../fonts/ofont.ru_Museo\ Sans\ Cyrl\ 900.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+body {
+  font-family: "Museo Sans Cyrl", sans-serif;
+}
+
+
+
+
+
+
+
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
   font-family: 'DM Sans';
@@ -22,3 +48,7 @@
   font-weight: 700;
   src: url('../fonts/dm-sans-v13-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
+
+
+
+

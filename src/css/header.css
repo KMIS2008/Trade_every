@@ -1,12 +1,32 @@
 .header {
-  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
-  background-color: #fff;
-  height: 50px;
+  padding-right: 10px;
+  padding-left: 10px;
+
+  background-color: #ffffff;
+  height: 80px;
   margin: auto;
 }
 
-.header .container {
+.logo {
+  font-family: Museo Sans Cyrl;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 1.07;
+    letter-spacing: 0;
+
+    color: #333333;
+}
+
+.svg {
+  width: 24px;
+  height: 24px;
+}
+
+/* .header .container {
   vertical-align: middle;
 
   display: flex;
@@ -59,10 +79,10 @@
 
 .mobile-menu-button.is-open .menu-open {
   display: none;
-}
-
+} */
+/* 
 .mobile-menu-container {
-  /* display: none; */
+
   position: absolute;
   top: 50px;
   left: 0;
@@ -111,10 +131,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  /* .mobile-menu-container.is-open {
-    display: block;
-    transform: translateX(0);
-  } */
+
 
   .header {
     min-width: 320px;
@@ -232,4 +249,4 @@
   .tablet-cart-button {
     display: none;
   }
-}
+} */
