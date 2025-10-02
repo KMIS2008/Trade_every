@@ -49,16 +49,22 @@
 }
 
 
+@media screen and (min-width: 768px) {
+  .section {
+      padding: 40px 40px 16px 40px;
 
+    }
+  .title{
+    text-align: center;
+    font-size: 64px;
+    line-height: 1.13;
+  }
 
-
-
-
-
-/* Media */
-@media screen and (min-width: 375px) {
+  .text{
+    text-align: center;
+  }
   
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1440px) {
  
 }
