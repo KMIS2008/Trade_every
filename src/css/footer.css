@@ -1,6 +1,5 @@
 .section_footer{
-  margin-top: 48px;
-  padding: 0 20px 0 20px;
+  padding: 0 20px 32px 20px;
 }
 
 .logo_footer {
@@ -62,4 +61,36 @@
     text-align: center;
     
     color: #828282;
+}
+
+@media screen and (min-width: 768px) {
+    .section_footer {
+        padding: 0 40px 60px 40px;
+        }
+
+    .logo_footer{
+        padding-top: 62px;
+        padding-bottom: 54px;
+    }
+
+    .nav_container{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .nav_footer_text {
+        margin-bottom: 40px;
+        }
+    .cooperator_container{
+        padding: 0 90px 0 90px;
+    }
+
+    .title_footer{
+        text-align: center;
+    }
+
+    .text_footer{
+        margin-bottom: 32px;
+    }
+
 }
