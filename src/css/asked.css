@@ -37,6 +37,7 @@
 
 .icon-x {
     display: none;
+    cursor: pointer;
 }
 
 .item_container{
