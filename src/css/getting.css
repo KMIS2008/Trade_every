@@ -51,6 +51,7 @@
 @media screen and (min-width: 768px) {
     .section_container {
         padding: 120px 40px 0px 40px;
+        margin-bottom: 400px;
         }
 
     .title_get {
@@ -121,7 +122,6 @@
     .list_steps {
         row-gap: 22%;
         column-gap: 132px;
-      
     }
 
     .right {
