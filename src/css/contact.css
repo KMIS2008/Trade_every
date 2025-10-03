@@ -1,5 +1,7 @@
 .section_contact {
     margin-top: 80px;
+    padding-bottom: 48px;
+    
     background-color: rgba(79, 98, 246, 0.1)
 }
 
@@ -58,7 +60,7 @@
 }
 
 .form_adress{
-    margin: 48px 20px 0 20px;
+    margin: 48px 20px 48px 20px;
     padding: 48px 16px 48px 16px;
 
     border-radius: 20px;
@@ -172,5 +174,32 @@ input[type="email"]:invalid:not(:placeholder-shown)~.error-message {
 .btn:disabled {
     background-color: #828282;
     color: #E0E0E0;
+}
+
+@media screen and (min-width: 768px) {
+     .section_contact {
+        margin-top: 120px;
+    }
+
+    .title_contact {
+        font-size: 56px;
+        text-align: center;
+        }
+
+    .text_contact {
+        padding: 8px 130px 32px 130px;
+                }
+
+    .text_contact_comment {
+        padding: 0 130px 24px 130px;
+                }
+        
+    .list_contact {
+        padding: 0 130px 0 130px;
+                }
+    .form_adress {
+        margin: 48px 130px 0 130px;
+        padding: 80px 42px 80px 42px;
+        }
 }
 
