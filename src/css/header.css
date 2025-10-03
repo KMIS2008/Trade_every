@@ -75,35 +75,6 @@
   cursor: pointer;
 }
 
-/* .select-wrapper {
-  position: relative;
-  display: inline-block;
-} */
-
-/* .select-wrapper select {
-  appearance: none;
-
-  -webkit-appearance: none;
-  -moz-appearance: none;
-
-  padding: 8px 30px 8px 8px;
-
-  font-size: 16px;
-} */
-
-/* своя стрелка */
-/* .select-wrapper::after {
-  content: "▼ ⇒ ";
- 
-  position: absolute;
-  right: 10px;
-
-  top: 50%;
-  transform: translateY(-50%);
-  pointer-events: none;
-
-} */
-
 .svg {
   width: 24px;
   height: 24px;
