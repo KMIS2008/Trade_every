@@ -18,11 +18,9 @@
     padding: 24px 16px;
     border-radius: 15px;
     border: 2px solid #4F62F6;
-    /* background-color: #333333; */
 }
 
 .title_text_asked{
-    margin-bottom: 24px;
     font-family: Museo Sans Cyrl;
     font-weight: 700;
     font-size: 18px;
@@ -57,3 +55,25 @@
         color: #4F4F4F;
 }
 
+
+@media screen and (min-width: 768px) {
+    .section_asked {
+        padding: 120px 40px 0px 40px;
+    }
+
+    .title_asked {
+        margin-bottom: 48px;
+        font-size: 56px;
+        line-height: 1.18;
+    }
+
+    .item_asked {
+        padding: 33px 40px;
+        }    
+
+    .title_text_asked{
+        font-size: 24px;
+    }
+
+
+}
