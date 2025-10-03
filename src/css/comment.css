@@ -1,0 +1,61 @@
+.section_comment{
+    padding: 80px 20px 0px 20px;
+}
+
+.title_com {
+    margin-bottom: 32px;
+    font-family: Museo Sans Cyrl;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.1;
+    letter-spacing: 0;
+
+    color: #333333;
+}
+
+.img_director{
+    margin: 0 auto;
+    margin-bottom: 8px;
+    width: 73px;
+    height: 73px;
+}
+
+.name{
+    font-family: Museo Sans Cyrl;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0;
+    text-align: center;
+        
+    color: #333333;
+}
+
+.position{
+    margin-bottom: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 1.69;
+    letter-spacing: 0;
+    text-align: center;
+    
+    color: #333333;
+}
+
+.stroke{
+    margin: 0 auto;
+    margin-bottom: 25px;
+    width: 33px;
+    height: 27px;
+}
+
+.text_com{
+    margin-bottom: 24px;
+    font-family: Museo Sans Cyrl;
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 0;
+    text-align: center;
+    
+    color: #333333;
+}
