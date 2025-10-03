@@ -98,3 +98,51 @@
         line-height: 1.18;
     }
 }
+
+@media screen and (min-width: 768px) {
+    .section_comment {
+        padding: 0 40px 0px 40px;
+    }
+
+    .title_com {
+        margin-bottom: 48px;
+        
+        font-size: 56px;
+        line-height: 1.18;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .section_comment {
+        display: flex;
+        gap: 84px;
+        padding: 0 120px 0px 120px;
+    }
+
+    .title_com {
+        display: block;
+        width: 483px;
+        margin-bottom: 48px;
+        font-size: 56px;
+        line-height: 1.18;
+    }
+
+    .container_man{
+        display: flex;
+        gap: 30px;
+        padding-left: 15px;
+    }
+
+    .name {
+    text-align:left;
+}
+
+    .container_text{
+        display: flex;
+        gap: 8px;
+    }
+
+    .text_com{
+        text-align: left;
+    }
+}
