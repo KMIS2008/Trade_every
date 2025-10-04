@@ -120,17 +120,15 @@
  
     color: #4F62F6;
 }
-@media screen and (min-width: 768px) {
-    .section_comment {
-        padding: 0 40px 0px 40px;
-    }
 
-    .title_com {
-        margin-bottom: 48px;
-        font-size: 56px;
-        line-height: 1.18;
-    }
+.tablete{
+    display: none;
 }
+
+.desctop{
+    display: none;
+}
+
 
 @media screen and (min-width: 768px) {
     .section_comment {
@@ -143,6 +141,31 @@
         font-size: 56px;
         line-height: 1.18;
     }
+
+    .text_com {
+        padding: 0 130px 0 130px;
+        }
+
+    .arrow-buttons{
+        justify-content: center;
+    }
+    
+    .left{
+        display: none;
+    }
+
+    .right{
+        display: none;
+    }
+
+    .calenar_tablete{
+        display: flex;
+    }
+
+    .tablete{
+        display: block;
+    }
+    
 }
 
 @media screen and (min-width: 1440px) {
@@ -178,4 +201,22 @@
     .text_com{
         text-align: left;
     }
+
+    .tablete{
+        display: none;
+    }
+
+   .arrow-buttons{
+    margin-left: 145px;
+    justify-content: left;
+   }
+
+   .tablete{
+    display: none;
+   }
+
+   .desctop{
+    display: flex;
+    gap: 16px;
+   }
 }
