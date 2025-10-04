@@ -87,6 +87,39 @@
     color: #333;
 }
 
+.arrow-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.circle-button {
+    width: 48px;
+    height: 48px;
+    border: none;
+    border-radius: 50%;
+    border: 1px solid #E0E0E0;
+    background-color: #FFFFFF;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.arrow-icon {
+    width: 24px;
+    height: 24px;
+    color: #000000;
+}
+
+.calendar{
+    font-family: Museo Sans Cyrl;
+        font-weight: 700;
+        font-size: 15px;
+ 
+    color: #4F62F6;
+}
 @media screen and (min-width: 768px) {
     .section_comment {
         padding: 0 40px 0px 40px;
