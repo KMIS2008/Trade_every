@@ -3,3 +3,5 @@
 // import './js/modal.js';
 
 import './js/button.js';
+
+import './js/calendar.js';
