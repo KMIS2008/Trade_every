@@ -150,11 +150,11 @@
         justify-content: center;
     }
     
-    .left{
+    .left-btn{
         display: none;
     }
 
-    .right{
+    .right-btn{
         display: none;
     }
 
