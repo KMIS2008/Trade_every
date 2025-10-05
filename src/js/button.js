@@ -1,6 +1,5 @@
 
   document.addEventListener('DOMContentLoaded', () => {
-    const item = document.querySelector('.item_asked');
     const btnPlus = document.querySelector('.icon-plus');
     const btnX = document.querySelector('.icon-x');
     const text = document.querySelector('.item_text_asked');
@@ -17,4 +16,3 @@
       text.style.display = 'none';
     });
   });
-
