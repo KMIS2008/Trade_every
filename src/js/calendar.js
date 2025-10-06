@@ -26,5 +26,4 @@ document.querySelectorAll('.arrowRight').forEach(button => {
   });
 });
 
-
 updateCalendar();
