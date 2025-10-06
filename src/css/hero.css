@@ -86,11 +86,14 @@
 }
 
 @media screen and (min-width: 1440px) {
-    .section{
+
+    .width_container_hero{
+      padding: 100px 120px 100px 120px;
+      max-width: 1440px;
+      margin: 0 auto;
       display: flex;
       align-items: center;
       justify-content: space-between;
-      padding: 100px 120px 100px 120px;
     }
     .title {
       text-align: start;

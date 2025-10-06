@@ -1,4 +1,6 @@
 <section class="section_contact">
+
+    <div class="width_container">
     <div class="container_contact">
     <div>
         <h2 class="title_contact">
@@ -30,17 +32,18 @@
     </div>
         
 <form class="form_adress" novalidate>
-    <input type="text" name="Name" placeholder="Name" required class="input" />
+    <input type="text" name="Name" placeholder="Name" required class="input" autocomplete="name" />
 
     <div style="position: relative;">
-        <input type="email" name="Email" placeholder="Email" required class="input" />
+        <input type="email" name="Email" placeholder="Email" required class="input" autocomplete="email" />
         <div class="error-message">Incorrect email type</div>
     </div>
 
-    <textarea name="message" placeholder="Message" rows="5" required class="textarea"></textarea>
+    <textarea name="message" placeholder="Message" rows="5" required class="textarea" autocomplete="off"></textarea>
 
     <button class="btn_contact" type="submit">SEND</button>
 </form>        
+    </div>        
     </div>
 
 </section>

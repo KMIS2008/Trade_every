@@ -171,6 +171,8 @@
 
 @media screen and (min-width: 1440px) {
     .section_comment {
+        max-width: 1440px;
+        margin: 0 auto;
         display: flex;
         gap: 84px;
         padding: 0 120px 0px 120px;

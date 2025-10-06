@@ -113,6 +113,9 @@
 
 @media screen and (min-width: 1440px) {
     .section_container {
+        max-width: 1440px;
+        margin: 0 auto;
+        margin-bottom: 400px;
         padding: 140px 222px 0px 120px;
     }
     .title_get {
